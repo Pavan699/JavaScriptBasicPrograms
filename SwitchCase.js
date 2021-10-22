@@ -37,3 +37,34 @@ switch(One_Digit)
         console.log("Wrong Input :) "); 
         break;             
 }
+
+//Number from 1 to 7 and Print the Day of week by using switch-case
+let Day = Math.floor(Math.random() * 7) + 1;
+console.log("Number is : "+Day);
+switch(Day)
+{
+    case 1 : 
+        console.log("Monday");  
+        break;    
+    case 2 : 
+        console.log("Tuesday "); 
+        break;    
+    case 3 : 
+        console.log("Wednesday"); 
+        break;         
+    case 4 : 
+        console.log("Thursday"); 
+        break;       
+    case 5 : 
+        console.log("Friday"); 
+        break;         
+    case 6 : 
+        console.log("Saturday");
+        break;    
+    case 7 : 
+        console.log("Sunday");  
+        break;                           
+    default:
+        console.log("Wrong Input :) "); 
+        break;             
+}
